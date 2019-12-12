@@ -1,0 +1,226 @@
+/*------ CSS RESET ------*/
+
+*{
+  padding:  0em;
+  margin:  0;
+  font-size: 100%;
+  line-height: 1em;
+  scroll-behavior: smooth;
+}
+
+/*-------MAIN STYLING------*/
+
+body {
+  width:  100%;
+  margin: auto;
+  background-color: #6D8BAA;
+  font-size: 1.2em;
+  max-width: 2000px;
+  text-align: justify;
+  image: center;
+
+}
+
+head {
+  background-color: #6D8BAA;
+}
+
+hr {
+  margin:2em 0;
+  height:4px;
+  background-color: #fafafa;
+  border: 0 none;
+}
+
+
+/*-------TYPOGRAPHY---------*/
+
+h2, h3 {
+      font-weight: normal;
+      color: #fafafa;
+      text-align: center;
+      padding-top: 4em;
+      padding-bottom: 0.5em;
+      font-family: 'Poppins', sans-serif;
+    }
+
+h1 {
+      font-family: 'Poppins', sans-serif;
+      color: #fafafa;
+}
+
+
+header p {
+      margin-left: 20em;
+      margin-right: 20em;
+      margin-top: 2em;
+      margin-bottom:2em;
+
+}
+
+p {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.2;}
+
+h1 {font-size: 2.6em;
+      margin-top: 6em;
+      margin-bottom: 10.0em;
+      margin-left: 7.9em;
+      margin-right: 7.9em;
+      max-width: 700px;
+      text-align: center;
+    }
+
+h2 {font-size: 1.999em;
+      margin: 3em 0 1em 0;}
+
+h3 {font-size: 1.414em;
+      margin-bottom: 1.5em;}
+
+
+
+.image-links{
+  padding-bottom: 17em;
+}
+
+.the-man {
+  max-width: 700px;
+  margin-left: 20em;
+  margin-right: 20em;
+  margin-top: 20em;
+  margin-bottom: 20em;
+}
+
+.the-beginning {
+  max-width: 700px;
+  margin-left: 20em;
+  margin-right: 20em;
+  margin-top: 20em;
+  margin-bottom: 20em;
+}
+
+.arpanet {
+  max-width: 700px;
+  margin-left: 20em;
+  margin-right: 20em;
+  margin-top: 20em;
+  margin-bottom: 20em;
+}
+
+.the-history {
+  max-width: 700px;
+  margin-left: 20em;
+  margin-right: 20em;
+  margin-top: 20em;
+  margin-bottom: 20em;
+}
+
+.the-breakthrough {
+  max-width: 700px;
+  margin-left: 20em;
+  margin-right: 20em;
+  margin-top: 20em;
+  margin-bottom: 20em;
+}
+
+.the-web {
+  max-width: 700px;
+  margin-left: 20em;
+  margin-right: 20em;
+  margin-top: 20em;
+  margin-bottom: 20em;
+}
+
+
+
+
+/*-------------STYLING LINKS------------*/
+a{
+  color: #efef74;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #fafafa ;
+  border-bottom: 1px solid;
+}
+
+
+
+
+/*-------IMAGES--------*/
+
+.image{
+    display:block;
+    margin: 3em auto;
+    padding: 0em;
+    max-width: 100%;
+    align-items: center;
+}
+
+/*-------FOOTER------*/
+
+footer{
+  text-align: center;
+  font-size: 0.707em;
+  padding-top: 1em ;
+  background-color: #fafafa;;
+  width: 100%;
+}
+
+.connections {
+  position: relative;
+  margin: 0 auto;
+}
+
+.connections ul {
+  margin:0;
+  padding: 0;
+}
+
+.connections li {
+  margin: 0 15px;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.connections a: link {
+  border-bottom: none;
+}
+
+.connections img {
+  opacity: 0.5;
+  border: none;
+}
+
+.connections a: hover img {
+  opacity: 1.0;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+}
+
+
+/*-------GRID---------*/
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
